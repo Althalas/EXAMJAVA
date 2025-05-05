@@ -1,0 +1,12 @@
+--- RECU RESERVATION ---
+ID Reservation: 1
+Utilisateur: test@admin.com
+Borne ID: 4
+Lieu: vichy (rue de la gare)
+Debut: 10/03/2026 12:30
+Fin: 10/03/2026 13:30
+Duree: 60 min
+Tarif horaire: 0,70 Eur
+Cout estime: 0,70 Eur
+Statut: ACCEPTEE
+------------------------

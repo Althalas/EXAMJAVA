@@ -1,6 +1,6 @@
 # README - Projet Electricity Business EXAM JAVA
 
-Ce projet implémente les exigences du système de gestion de réservation de bornes de recharge électrique. Il utilise une structure Java avec interfaces et services en mémoire. Cette version inclut une documentation Javadoc en français.
+Ce projet implémente les fonctionnalités du système de gestion de réservation de bornes de recharge électrique. Il utilise une structure Java avec interfaces et services. Cette version inclut une documentation Javadoc en français.
 Il est réalisé dans le cadre de l'évaluation du module Java SE de la CDA_R5.
 Ce projet est fait par PETIT Martin.
 

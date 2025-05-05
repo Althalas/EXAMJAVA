@@ -10,8 +10,8 @@ import java.util.Optional;
 import java.util.UUID;
 
 /**
- * implement de authentificationService.
- * données volatiles
+ * Implement d'authentificationService.
+ * Données volatiles
  */
 public class AuthentificationServiceImplement implements AuthentificationService {
 

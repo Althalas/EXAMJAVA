@@ -21,12 +21,12 @@ public class Reservation {
     private StatutReservation statut;
     /**
      * Construit une nouvelle instance de Reservation.
-     * La réservation est initialisée avec le statut EN_ATTENTE et un ID unique lui est assigné.
+     * La réservation est initialisée avec le statut EN_ATTENTE et un ID unique lui a assigné.
      *
-     * @param utilisateur L'{@link Utilisateur} qui réserve. Ne doit pas être null.
-     * @param borne La {@link BorneRecharge} réservée. Ne doit pas être null.
-     * @param dateDebut La date et heure de début de la réservation. Ne doit pas être null.
-     * @param dateFin La date et heure de fin de la réservation. Ne doit pas être null et doit être postérieure à {@code dateDebut}.
+     * @param utilisateur L'{@link Utilisateur} qui réserve. Ne dois pas être null.
+     * @param borne La {@link BorneRecharge} réservée. Ne dois pas être null.
+     * @param dateDebut La date et heure de début de la réservation. Ne dois pas être null.
+     * @param dateFin La date et heure de fin de la réservation. Ne dois pas être null et doit être postérieure à {@code dateDebut}.
      */
     public Reservation(Utilisateur utilisateur, BorneRecharge borne, LocalDateTime dateDebut, LocalDateTime dateFin) {
         this.id = ++compteurId;

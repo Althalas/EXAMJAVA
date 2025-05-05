@@ -168,7 +168,7 @@ public class MenuPrincipal {
     }
 
     /**
-     * Affiche les reservations de l'utilisateur connecté
+     * Affiche-les reservations de l'utilisateur connecté
      */
     private void gererMesReservations() {
         if (utilisateurConnecte == null) { ConsoleMain.afficherErreur("Connexion requise."); return; }

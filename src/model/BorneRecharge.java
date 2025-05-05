@@ -19,7 +19,7 @@ public class BorneRecharge {
 
     /**
      * Constructeur de BorneRecharge.
-     * la borne est init en dispo et elle a un id unique.
+     * La borne est init en disponible et elle a un id unique.
      * @param tarifHoraire tarif de l'utilisation de la borne en heure.
      * @param lieuId l'id du lieu où se trouve la borne.
      */
@@ -74,7 +74,7 @@ public class BorneRecharge {
     /**
      * Compare cette borne à un autre objet pour vérifier l'égalité.
      * Deux bornes sont considérées égales s'ils ont le même ID.
-     * @param o L'objet à comparer avec cette borne.
+     * @param o L'objet a comparé avec cette borne.
      * @return true si les objets sont égaux (même ID), false sinon.
      */
     @Override

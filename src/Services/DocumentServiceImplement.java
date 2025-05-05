@@ -18,8 +18,8 @@ import java.time.temporal.ChronoUnit;
 import java.util.Optional;
 
 /**
- * implement de documentService.
- * permet de générer les reçus txt et la création du dossier export.
+ * Implement de documentService.
+ * Permet de générer les reçus txt et la création du dossier export.
  */
 public class DocumentServiceImplement implements DocumentService {
 

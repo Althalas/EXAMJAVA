@@ -25,7 +25,7 @@ public class ReservationServiceImplement implements ReservationService {
     private DocumentService documentService; // Pour injection
 
     /**
-     *définit le service de document à utiliser pour les reçus.
+     *Définit le service de document à utiliser pour les reçus.
      * @param documentService l'instance de DocumentService à utiliser
      */
     public void setDocumentService(DocumentService documentService) {
@@ -101,7 +101,7 @@ public class ReservationServiceImplement implements ReservationService {
     }
 
     /**
-     * filtre les réservation pour l'utilisateur donné.
+     * Filtre-les réservation pour l'utilisateur donné.
      * @param utilisateur identifiant de l'utilisateur. Si null, retourne une liste vide.
      */
     @Override
@@ -113,7 +113,7 @@ public class ReservationServiceImplement implements ReservationService {
     }
 
     /**
-     * retourne une nouvelle liste avec toutes les réservations
+     * Retourne une nouvelle liste avec toutes les réservations
      * @return nouvelle liste de réservations
      */
     @Override
@@ -122,8 +122,8 @@ public class ReservationServiceImplement implements ReservationService {
     }
 
     /**
-     * récupère les réservations pour la borne donnée qui sont ACCEPTEE ou EN ATTENTE.
-     * avec une date postérieure à maintenant.
+     * Récupère les réservations pour la borne donnée qui sont ACCEPTEE ou EN ATTENTE.
+     * Avec une date postérieure à maintenant.
      * @param borneId l'id de la borne
      */
     @Override

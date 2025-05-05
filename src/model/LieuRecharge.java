@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 /**
- * Représente un lieu géographique (ex: parking, centre commercial) où se trouvent
+ * Représente un lieu géographique (ex : parking, centre commercial) où se trouvent
  * une ou plusieurs {@link BorneRecharge}.
  * Contient les informations descriptives du lieu et la liste des bornes associées.
  */
@@ -19,10 +19,10 @@ public class LieuRecharge {
     private final List<BorneRecharge> bornes;
     /**
      * Construit une nouvelle instance de LieuRecharge avec un nom et une adresse.
-     * Le lieu est initialisé avec une liste de bornes vide et un ID unique lui est assigné.
+     * Le lieu est initialisé avec une liste de bornes vide et un ID unique lui a assigné.
      *
-     * @param nom Le nom du lieu. Ne doit pas être null or vide.
-     * @param adresse L'adresse du lieu. Ne doit pas être null or vide.
+     * @param nom Le nom du lieu. Ne dois pas être null or vide.
+     * @param adresse L'adresse du lieu. Ne dois pas être null or vide.
      */
     public LieuRecharge(String nom, String adresse) {
         this.id = ++compteurId;
@@ -97,7 +97,7 @@ public class LieuRecharge {
     /**
      * Compare ce lieu à un autre objet pour vérifier l'égalité.
      * Deux lieux sont considérés égaux s'ils ont le même ID.
-     * @param o L'objet à comparer avec ce lieu.
+     * @param o L'objet a comparé avec ce lieu.
      * @return true si les objets sont égaux (même ID), false sinon.
      */
     @Override

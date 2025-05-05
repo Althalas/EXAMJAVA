@@ -1,7 +1,6 @@
 package UI;
 
 
-import Interfaces.AuthentificationService;
 import Interfaces.BorneService;
 import Services.*;
 import model.*;
@@ -14,7 +13,7 @@ import model.*;
  */
 public class Main {
     /**
-     * méthode principale de l'application.
+     * Méthode principale de l'application.
      * @param args argument de la ligne de commande
      */
     public static void main(String[] args) {
@@ -32,7 +31,7 @@ public class Main {
         documentService.setBorneService(borneService); // Important pour le reçu
 
         // 3. Ajout de données initiales (optionnel)
-        ajouterDonneesTest(authService, borneService);
+        ajouterDonneesTest(borneService);
 
         // 4. Création et lancement du menu
         MenuPrincipal menu = new MenuPrincipal(authService, borneService, reservationService);
@@ -42,11 +41,10 @@ public class Main {
     }
 
     /**
-     * permet les tests de l'application.
-     * @param auth service d'authentification à peupler
+     * Permet les tests de l'application.
      * @param borne service borne à peupler
      */
-    private static void ajouterDonneesTest(AuthentificationService auth, BorneService borne) {
+    private static void ajouterDonneesTest(BorneService borne) {
         System.out.println("\nAjout données de test...");
         // Lieu 1 + Bornes
         LieuRecharge l1 = borne.ajouterLieu("Gare", "1 Place de la Gare");

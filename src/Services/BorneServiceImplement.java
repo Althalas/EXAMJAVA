@@ -59,7 +59,7 @@ public class BorneServiceImplement implements BorneService {
     }
 
     /**
-     *recherche le lieu par son identifiant.
+     *Recherche le lieu par son identifiant.
      * @param lieuId identifiant du lieu. Si null, retourne une liste vide.
      * @return une liste de lieux. Si null, retourne une liste vide.
      */
@@ -69,7 +69,7 @@ public class BorneServiceImplement implements BorneService {
     }
 
     /**
-     *récupère tous les lieux.
+     *Récupère tous les lieux.
      * @return une liste de lieux. Si null, retourne une liste vide.
      */
     @Override
@@ -100,7 +100,7 @@ public class BorneServiceImplement implements BorneService {
     }
 
     /**
-     *récupère l'id de la borne et modifie les valeurs si valide.
+     *Récupère l'id de la borne et modifie les valeurs si valides.
      * @param borneId id de la borne
      * @param nouvelEtat état de la borne.
      * @param nouveauTarif tarif de la borne.
@@ -115,7 +115,7 @@ public class BorneServiceImplement implements BorneService {
     }
 
     /**
-     *récupère l'id de la borne et retourne la borne.
+     *Récupère l'id de la borne et retourne la borne.
      * @param borneId id de la borne.
      * @return l'identifiant de la borne
      */
@@ -154,7 +154,7 @@ public class BorneServiceImplement implements BorneService {
     }
 
     /**
-     *récupère toutes les bornes disponibles et non réservé.
+     *Récupère toutes les bornes disponibles et non réservé.
      * @param debut date début
      * @param fin date fin
      */

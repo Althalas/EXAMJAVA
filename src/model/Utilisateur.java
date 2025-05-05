@@ -12,7 +12,7 @@ public class Utilisateur {
     private boolean estValide;
 
     /**
-     * contient tout ce qui sert pour l'identification, l'authentification et la validation
+     * Contient tout ce qui sert pour l'identification, l'authentification et la validation
      * @param email permet de faire la connexion
      * @param motDePasse permet de faire la connexion
      */
@@ -43,13 +43,13 @@ public class Utilisateur {
     public String getCodeValidation() { return codeValidation; }
 
     /**
-     * indique si l'utilisateur est valide ou non.
+     * Indique si l'utilisateur est valide ou non.
      * @return true si valide sinon false.
      */
     public boolean isEstValide() { return estValide; }
 
     /**
-     * définit le code de validation de l'utilisateur.
+     * Définit le code de validation de l'utilisateur.
      * @param codeValidation le code de validation de l'utilisateur.
      */
     public void setCodeValidation(String codeValidation) { this.codeValidation = codeValidation; }

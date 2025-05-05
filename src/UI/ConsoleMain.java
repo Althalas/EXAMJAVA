@@ -58,7 +58,7 @@ public class ConsoleMain {
     }
 
     /**
-     * affiche une invite et lit un int entré par l'utilisateur.
+     * Affiche une invite et lit un int entré par l'utilisateur.
      * @param prompt le message pour afficher l'invite.
      * @return l'int lu.
      */
@@ -108,7 +108,7 @@ public class ConsoleMain {
     }
 
     /**
-     * affiche une invite et lit un double positif ou nul, redemande si erreur
+     * Affiche une invite et lit un double positif ou nul, redemande si erreur
      * @param prompt le message à afficher.
      * @return le double lu.
      */
@@ -147,7 +147,7 @@ public class ConsoleMain {
     }
 
     /**
-     * pose la question o/n à l'utilisateur
+     * Pose la question o/n à l'utilisateur
      * @param prompt la question
      * @return true si o, false si n
      */
@@ -157,7 +157,7 @@ public class ConsoleMain {
     }
 
     /**
-     * met en pause jusqu'a appui de l'utilisateur.
+     * Met en pause jusqu'à appui de l'utilisateur.
      */
     public static void pause() {
         lireString("\nAppuyez sur Entrée pour continuer...");

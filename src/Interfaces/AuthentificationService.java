@@ -35,7 +35,6 @@ public interface AuthentificationService {
      *
      * @param email L'email de l'utilisateur tentant de valider son compte.
      * @param code Le code de validation fourni par l'utilisateur.
-     * @return true si la validation est réussie, false sinon (utilisateur non trouvé, déjà validé, code incorrect).
      */
     void validerCompte(String email, String code);
     /**

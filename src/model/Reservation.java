@@ -74,14 +74,7 @@ public class Reservation {
      * @param statut Le nouveau {@link StatutReservation}.
      */
     public void setStatut(StatutReservation statut) { this.statut = statut; }
-/**
- * Vérifie si le créneau de cette réservation chevauche un autre créneau donné.
- * Le chevauchement se produit si le début de l'un est avant la fin de l'autre, et vice-versa.
- *
- * @param debutTest Date et heure de début du créneau à tester.
- * @param finTest Date et heure de fin du créneau à tester.
- * @return true si les créneaux se chevauchent, false sinon.
- */
+
     /** Vérifie si cette réservation chevauche un créneau donné. */
     public boolean chevauche(LocalDateTime debutTest, LocalDateTime finTest) {
         return this.dateDebut.isBefore(finTest) && debutTest.isBefore(this.dateFin);

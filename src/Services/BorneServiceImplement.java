@@ -60,8 +60,8 @@ public class BorneServiceImplement implements BorneService {
 
     /**
      *recherche le lieu par son identifiant.
-     * @param lieuId
-     * @return
+     * @param lieuId identifiant du lieu. Si null, retourne une liste vide.
+     * @return une liste de lieux. Si null, retourne une liste vide.
      */
     @Override
     public Optional<LieuRecharge> getLieuById(long lieuId) {
@@ -70,7 +70,7 @@ public class BorneServiceImplement implements BorneService {
 
     /**
      *récupère tous les lieux.
-     * @return
+     * @return une liste de lieux. Si null, retourne une liste vide.
      */
     @Override
     public List<LieuRecharge> getAllLieux() {
@@ -157,7 +157,6 @@ public class BorneServiceImplement implements BorneService {
      *récupère toutes les bornes disponibles et non réservé.
      * @param debut date début
      * @param fin date fin
-     * @return
      */
     @Override
     public List<BorneRecharge> rechercherBornesDisponibles(LocalDateTime debut, LocalDateTime fin) {

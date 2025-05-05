@@ -79,7 +79,6 @@ public class LieuRecharge {
     /**
      * Supprime une borne de la liste des bornes de ce lieu.
      * @param borne La {@link BorneRecharge} à supprimer.
-     * @return true si la borne a été trouvée et supprimée, false sinon.
      */
     public void supprimerBorne(BorneRecharge borne) {
         if (borne != null) {

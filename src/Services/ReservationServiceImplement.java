@@ -63,7 +63,7 @@ public class ReservationServiceImplement implements ReservationService {
 
     /**
      * Vérifie le statut de la réservation et lui change d'état en ACCEPTEE si c'est le cas.
-     * @param reservationId
+     * @param reservationId l'id de la réservation
      */
     @Override
     public void accepterReservation(long reservationId) {
@@ -87,7 +87,7 @@ public class ReservationServiceImplement implements ReservationService {
 
     /**
      * Vérifie le statut et le change en REFUSEE si c'est le cas.
-     * @param reservationId
+     * @param reservationId l'id de la réservation
      */
     @Override
     public void refuserReservation(long reservationId) {
@@ -103,7 +103,6 @@ public class ReservationServiceImplement implements ReservationService {
     /**
      * filtre les réservation pour l'utilisateur donné.
      * @param utilisateur identifiant de l'utilisateur. Si null, retourne une liste vide.
-     * @return
      */
     @Override
     public List<Reservation> getReservationsUtilisateur(Utilisateur utilisateur) {
@@ -125,8 +124,7 @@ public class ReservationServiceImplement implements ReservationService {
     /**
      * récupère les réservations pour la borne donnée qui sont ACCEPTEE ou EN ATTENTE.
      * avec une date postérieure à maintenant.
-     * @param borneId
-     * @return
+     * @param borneId l'id de la borne
      */
     @Override
     public boolean borneHasFutureReservations(long borneId) {

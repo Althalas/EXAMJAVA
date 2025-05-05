@@ -21,7 +21,6 @@ public class AuthentificationServiceImplement implements AuthentificationService
      *
      * @param email L'adresse e-mail souhaitée pour le nouveau compte.
      * @param motDePasse Le mot de passe choisi pour le nouveau compte.
-     * @return
      */
     @Override
     public Optional<Utilisateur> inscrire(String email, String motDePasse) {
@@ -69,7 +68,6 @@ public class AuthentificationServiceImplement implements AuthentificationService
      *
      * @param email L'email fourni pour la connexion.
      * @param motDePasse Le mot de passe fourni pour la connexion.
-     * @return
      */
     @Override
     public Optional<Utilisateur> connecter(String email, String motDePasse) {
